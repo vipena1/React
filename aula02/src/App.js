@@ -6,6 +6,7 @@ import ListaAlunos from "./componentes/listaAlunosDois"
 let aluno = "Vinicius";
 let n1 = 10;
 let n2 = 15;
+const AlunosDois = ["Vinicius", "Carlos", "Leonardo"];
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <p>
         SOMA DOS NUMEROS N1 + N2 = {n1 + n2}
       </p>
-      <ListaAlunos/>
+      <ListaAlunos Alunos={AlunosDois}/>
 
     </div>
   );

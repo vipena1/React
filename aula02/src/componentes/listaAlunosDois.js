@@ -1,7 +1,5 @@
 import React from "react";
 
-let Alunos = ["Bianca", "Vinicius", "Carlos"];
-
 export default function ListaAlunos (props){
     return(
         <ul>
